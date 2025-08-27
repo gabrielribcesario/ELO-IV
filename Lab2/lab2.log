@@ -1,0 +1,55 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\dout\Desktop\ELO-IV\Lab2\lab2.net
+Start Time: Wed Aug 27 20:09:27 2025
+Options: meascplxfmt=cartesian
+solver = Normal
+Maximum thread count: 36
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+.step r1=10000
+.step r1=5000
+.step r1=1000
+Total elapsed time: 0.204 seconds.
+
+Files loaded:
+C:\Users\dout\Desktop\ELO-IV\Lab2\lab2.net
+C:\Users\dout\Documents\LTspice\lib\sub\LM741.lib
+
+
+Measurement: vo
+  step	MAX(MAG(V(out)))	FROM	TO
+     1	(0.999988522437,0)	1000	10000000
+     2	(1.99996262438,0)	1000	10000000
+     3	(9.99886358464,0)	1000	10000000
+
+Measurement: fc
+  step	frequency	at
+     1	(634650.481068,0)	634650.481068
+     2	(386101.431032,0)	386101.431032
+     3	(93112.2796885,0)	93112.2796885
+
+Measurement: gainmax
+  step	MAX(MAG(V(out))/MAG(V(in)))	FROM	TO
+     1	(0.999988522437,0)	1000	10000000
+     2	(1.99996262438,0)	1000	10000000
+     3	(9.99886358464,0)	1000	10000000
+
+Measurement: gainmaxdb
+  step	20*log10(MAG(GainMAX))
+     1	(-9.96934212701e-05,0)
+     2	(6.0204375915,0)
+     3	(19.9990128661,0)
+
+Measurement: r
+  step	R1
+     1	(10000,0)
+     2	(5000,0)
+     3	(1000,0)
+
+Measurement: pgl
+  step	GainMAX*fc
+     1	(634643.196827,0)
+     2	(772188.431283,0)
+     3	(931016.98266,0)
