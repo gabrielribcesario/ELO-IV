@@ -1,0 +1,20 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\gabri\Desktop\ELO-IV\Lab3\Exp1a.net
+Start Time: Wed Sep  3 23:46:33 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+CompressWinPoints = 4096
+CompressRelTol = 0.001
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.049 seconds.
+
+Files loaded:
+C:\Users\gabri\Desktop\ELO-IV\Lab3\Exp1a.net
+C:\Users\gabri\OneDrive\Documentos\LTspiceXVII\lib\sub\LM741.lib
+
+Vs_pp: PP(V(Vs))=3.97999715805 FROM 0 TO 0.006
+Ve_pp: PP(V(Ve))=1.99953091145 FROM 0 TO 0.006
+Av: Vs_pp/Ve_pp=1.9904654313
