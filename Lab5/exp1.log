@@ -1,0 +1,29 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\gabri\Desktop\ELO-IV\Lab5\exp1.net
+Start Time: Wed Oct 15 17:11:05 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+CompressWinPoints = 4096
+CompressRelTol = 0.001
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.141 seconds.
+
+Files loaded:
+C:\Users\gabri\Desktop\ELO-IV\Lab5\exp1.net
+C:\Users\gabri\AppData\Local\LTspice\lib\cmp\standard.bjt
+
+Ic1: AVG(Ic(Q1))=0.00631789979025 FROM 0 TO 0.005
+Ic2: AVG(Ic(Q2))=0.00202081908026 FROM 0 TO 0.005
+Vce1: AVG(V(c1) - V(e1))=4.1283089665 FROM 0 TO 0.005
+Vce2: AVG(V(c2) - V(e2))=5.97938932306 FROM 0 TO 0.005
+Ib1: AVG(Ib(Q1))=2.05869591484e-05 FROM 0 TO 0.005
+Ib2: AVG(Ib(Q2))=6.76509635074e-06 FROM 0 TO 0.005
+Vout: PP(V(out))=0.192748308182 FROM 0 TO 0.005
+Vin: PP(V(in))=0.00199995294679 FROM 0 TO 0.005
+Gain: Vout/Vin=96.3764215009
+Vin2out1: PP(V(c1))=0.00125598907471 FROM 0 TO 0.005
+Gain1: Vin2out1/Vin=0.628009312281
+Gain2: Vout/Vin2out1=153.463363705
